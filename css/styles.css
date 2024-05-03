@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+
+    width: 20px;
+}
+
+/* Custom Variables */
+
+:root{
+
+    --primary: rgb(0, 0, 0);
+    --secondary: white;
+    --main-bg-color: rgb(151, 8, 8);
+    --alternative: rgb(2, 2, 109); 
+    --mainBoxShadow: grey;
+    --awesome: pink;
+    --borderColor: rgb(0, 130, 74);
+    --elementShadow: .2vw .3vw .2vw #FFEBB2;
+    --mainBg: gold; 
+    --bgImg: linear-gradient( to right, var(--awesome), var(--mainBg));
+
+
+
+}
+
+
+/* Allows you to use animations */
+
+@property --top-left {
+
+    syntax:"<percentage>";
+    inherits: false;
+    initial-value: 50%;
+}
+
+@property --top-right {
+
+    syntax:"<percentage>";
+    inherits: false;
+    initial-value: 50%;
+}
+
+@property --bottom-left {
+
+    syntax:"<percentage>";
+    inherits: false;
+    initial-value: 0%;
+}
+
+@property --bottom-right {
+
+    syntax:"<percentage>";
+    inherits: false;
+    initial-value: 0%;
+}
