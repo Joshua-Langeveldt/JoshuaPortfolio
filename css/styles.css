@@ -16,7 +16,7 @@
 
 :root{
 
-    --primary: rgb(0, 0, 0);
+    --primary: #322C2B;
     --secondary: white;
     --main-bg-color: rgb(151, 8, 8);
     --alternative: rgb(2, 2, 109); 
@@ -24,11 +24,8 @@
     --awesome: pink;
     --borderColor: rgb(0, 130, 74);
     --elementShadow: .2vw .3vw .2vw #FFEBB2;
-    --mainBg: gold; 
+    --mainBg: gold;
     --bgImg: linear-gradient( to right, var(--awesome), var(--mainBg));
-
-
-
 }
 
 
@@ -61,3 +58,26 @@
     inherits: false;
     initial-value: 0%;
 }
+
+/*Nav-bar & Footer*/
+
+:is( .navbar, footer ){
+
+    background-color: var(--primary);
+}
+
+/*Nav-Bar*/
+
+:is(.nav-link) {
+    color: var(--secondary); 
+}
+
+
+img[alt='logo'] {
+
+    width: 5rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+
