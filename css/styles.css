@@ -64,12 +64,14 @@
 :is( .navbar, footer ){
 
     background-color: var(--primary);
+    
 }
 
 /*Nav-Bar*/
 
-:is(.nav-link) {
+:is(.nav-link, footer) {
     color: var(--secondary); 
+    text-align: center;
 }
 
 
