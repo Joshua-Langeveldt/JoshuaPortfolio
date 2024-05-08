@@ -94,7 +94,7 @@ img[alt='logo'] {
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;
-    border: solid 2px var(--primary);
+    border: solid 3px var(--primary);
     border-radius: 20px;
 }
 
@@ -149,7 +149,7 @@ p{
 
    .italianno {
        font-family: "Italianno", cursive;
-       font-weight: 00;
+       font-weight: 200;
        font-style: normal;
        display: flex;
        font-size: 6rem;
@@ -177,14 +177,13 @@ p{
 
      img[alt='jam'] {
 
-     height: 15rem;
+     height: 18rem;
      width: 15rem;
         border-radius: 200px;
         margin: 13rem 9rem;
         border: 3px solid #a5a9afad;
         margin-right: -10rem;
         margin-left: 16rem;
-
         transition: all .5s;
     
         &:hover {
@@ -236,10 +235,10 @@ p{
 
 .about-page {
 
-   margin: 6rem 2rem 0 0;
+   margin: 4rem 2rem 0 3rem;
    font-family: "Jockey One", sans-serif;
    font-weight: 300;
-   padding: 4px;
+   padding: 5px;
    height: 100px;
    width: 40%;
    font-size: 1.5rem;
@@ -307,4 +306,82 @@ height: 300px;
     color: white;
     transform: rotateY(180deg);
   } 
+
+  /*Work&Education**/
+  /*These effect the paragraphs*/
+.cust-work {
+display: inline;
+margin-left: 0rem;
+    font-family: "Jockey One", sans-serif;
+    font-size: 1.5rem;
+    transition: all .5s;
+    
+    &:hover {
+        transform: scale(1.2);
+        color: var(--mainBg);
+    }
+}
+
+/*These effect the heading 3s*/
+.custom-work {
+    font-family: "Jockey One", sans-serif;
+font-size: 2rem;
+    padding-top: 1rem;
+    color: var(--mainBg);
+}
+
+/*This effects the h2*/
+.custom {
+    font-family: "Italianno", cursive;
+    font-size: 5rem;
+    margin-top: 20rem;
+
+    transition: all .5s;
+    
+    &:hover {
+        transform: scale(1.2);
+        color: var(--mainBg);
+}
+}
+
+.textAlignment{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -4rem;
+    margin-top: 4rem;
+}
+
+.standalone{
+
+    margin-left:-10rem;
+}
+
+/*Button Styling*/
+
+.btn {
+
+    border: 3px solid var(--secondary);
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color: var(--alternative);
+    transition: all .5s;
+    
+    &:hover {
+        transform: scale(1.2);
+        color: var(--alternative);
+                border: 3px solid #FFEBB2;
+
+    }
+    
+}
   
+.cust-link {
+    color: #102C57;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--secondary);
+    }
+}
