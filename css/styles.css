@@ -334,7 +334,7 @@ font-size: 2rem;
 .custom {
     font-family: "Italianno", cursive;
     font-size: 5rem;
-    margin-top: 20rem;
+    margin-top: 19rem;
 
     transition: all .5s;
     
@@ -383,5 +383,106 @@ font-size: 2rem;
 
     &:hover {
         color: var(--secondary);
+    }
+}
+
+
+
+
+/* Skills Styling */
+
+.ontainercay {
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2 {
+    color: var(--secondary);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Card Styles*/
+
+.card-styling{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 5rem;
+    width: 50%;
+    transition: all .5s;
+    
+    &:hover {
+        transform: scale(1.2);
+        color: var(--alternative);
+
+    }
+    
+}
+
+#card-style1{
+    margin-left: -18rem;
+}
+
+#card-style2{
+    margin-right: -18rem;
+}
+
+#card-style3{
+    margin-left: -18rem;
+}
+
+#card-style4{
+    margin-right: -18rem;
+}
+
+#card-style5{
+    margin-top: 5rem;
+}
+
+.card1 {
+    width: 500px;
+    height: 280px;
+    border: 3px solid var(--mainBg);
+    border-radius: 30px;
+    box-shadow: .3vw .3vw .3vw var(--mainBg), .6vw 1vw .2vw var(--secondary);
+
+}
+
+.card2 {
+    width: 950px;
+    height: 250px;
+    border: 3px solid var(--mainBg);
+    border-radius: 30px;
+    box-shadow: .3vw .3vw .3vw var(--mainBg), .6vw 1vw .2vw var(--secondary);
+
+}
+
+.card-body {
+    padding: 20px;
+}
+.card-title {
+    font-size: 1.5em;
+    color: var(--secondary);
+    font-family: "Jockey One", sans-serif;
+
+}
+.card-subtitle {
+    font-size: 1em;
+    color: var(--secondary);
+    font-family: "Jockey One", sans-serif;
+
+}
+.card-text {
+    color: var(--secondary);
+    font-size: 1rem;
+    font-family: "Jockey One", sans-serif;
+width:100%;
+    padding-left: 0px;
+    margin-left: 0%;
+
+    &:hover {
+
+        color: var(--mainBg);
     }
 }
