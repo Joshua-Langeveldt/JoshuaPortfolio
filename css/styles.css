@@ -166,7 +166,7 @@ section {
 
      .homeContainer {
 
-        background-image: url(https://joshua-langeveldt.github.io/images/images/scenary.jpg);
+        background-image: url(https://joshua-langeveldt.github.io/images/images/Randoms/scenary.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -587,3 +587,67 @@ img[alt='Image1'] {
 }
 
 
+/*Projects Section Styling*/
+
+.image-container {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 1.1rem;
+   width: 30%;
+   transition: all .5s;
+
+   &:hover {
+    transform: scale(1.2);
+    
+}
+
+
+}
+
+.hover-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+    transition: visibility 0.2s;
+}
+
+.image-container:hover .hover-text {
+    visibility: visible;
+    font-size: large;
+}
+
+img[alt='proImg-1'] {
+
+height: 200px;
+width: 350px;
+border-radius: 20px;
+border: 2px solid var(--secondary);
+}
+
+.exttay{
+    display: flex;
+    justify-content: center;
+    color: var(--secondary);
+    width: 100%;
+    margin-left: 5rem;
+    padding-top: 1rem;
+}
+
+.heading-exttay{
+    display: flex;
+    justify-content: center;
+    color: var(--secondary);
+    width: 100%;
+    margin-left: 5rem;
+    padding-top: 1rem;
+}
+
+.cust-heading-exttay{
+
+    color:var(--mainBg);
+    margin-top: -3rem;
+}
